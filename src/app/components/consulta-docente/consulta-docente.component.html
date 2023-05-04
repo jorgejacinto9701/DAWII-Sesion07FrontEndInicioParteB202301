@@ -81,13 +81,7 @@
                     </thead>
                     <tbody>
                           <tr *ngFor="let aux of docentes">
-                             <td>{{ aux.idDocente }}</td>   
-                             <td>{{ aux.nombre }}</td> 
-                             <td>{{ aux.dni }}</td>    
-                             <td>{{ aux.fechaRegistro | date:"dd/MM/yyyy"}}</td>
-                             <td>{{ aux.fechaRegistro | date:"hh:mm:ss a"}}</td>
-                             <td>{{ aux.estado == 1 ? "Activo" : "Inactivo" }}</td>   
-                             <td>{{ aux.ubigeo!.departamento }} - {{ aux.ubigeo!.provincia }} - {{ aux.ubigeo!.distrito }}</td>    
+                          
                           </tr>     
                     </tbody>
                 </table>
